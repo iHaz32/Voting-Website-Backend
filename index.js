@@ -23,7 +23,7 @@ app.use(cors({ origin: "http://localhost:3000", credentials: true }));
 app.use(cookieParser());
 
 mongoose.connect(
-  "mongodb+srv://admin:u4M4cCF7E2aHaiz@cluster0.tfusjrl.mongodb.net/Voting_Site?retryWrites=true&w=majority"
+  //hidden
 );
 
 app.post("/passwords", async (req, res) => {
